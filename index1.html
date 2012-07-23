@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+div.menu {
+ width:950px;
+ height:50px;
+ font-family:Arial, Helvetica, sans-serif;
+ line-height:normal;
+ overflow:visible;
+ margin-bottom:20px;
+ margin:0 auto;
+}
+div.menu{
+	height:46px;
+	background-color:#00F;
+}
+
+div.menu > ul{
+	list-style:none;
+	width:950px;
+	margin-left:10px;
+	float:right;
+}
+
+div.menu ul li{
+	float:right;
+	border-right:2px #00F;
+	list-style-type:none;
+	margin-top:5px;
+}
+
+div.menu ul li a{
+	display:block;
+	padding:5px 7px;
+	text-decoration:none;
+	color:#FFF;
+}
+
+div.menu li:hover{
+	background-color:#06F;
+}
+
+div.menu li:hover a{
+	color:#A4A4A4;
+	margin-left:10px;
+	text-align:center;
+	padding-right:4px;
+	-webkit-transition:all 0.4s ;
+	-moz-transition:all 0.4s ;
+	-o-transition:all 0.4s ;
+	transition:all 0.4s ;	
+}
+
+div.menu li:first-child{
+	border-right:0;	
+}
+/*----------submenu-----------*/
+div.menu li ul{
+	list-style:none;
+	position:absolute;
+	display:none;
+	background-color:#06C;
+	padding:0;
+}
+
+div.menu li:hover ul{
+	display:block;
+	background-color:#06C;
+	color:#FFF;
+	
+}
+
+div.menu li li{
+	float:none;
+}
+
+div.menu li:hover ul a{
+	float:none;
+	color:#FFF;
+}
+
+div.menu li li a:hover{
+	color:#666666;
+	margin-left:10px;
+}
+
+div.menu li ul li:hover{
+	background-color:#06C;
+ 	color:#006666;	
+}
+</style>
+</head>
+
+<body>
+<div class="menu">
+<ul>
+<li><a href="#" target="_blank" dir="rtl">صفحه اصلی</a></li>
+<li><a href="#" target="_blank" dir="rtl">گالری</a>
+<ul>
+<li><a href="#" target="_blank" dir="rtl">شخصی</a></li>
+<li><a href="#" target="_blank" dir="rtl">طبیعت</a></li>
+</ul>
+</li>
+<li><a href="#" target="_blank" dir="rtl">اخبار</a></li>
+<li><a href="#" target="_blank" dir="rtl">درباره ما</a></li>
+<li><a href="#" target="_blank" dir="rtl">ارتباط با ما</a></li>
+</ul>
+</div>
+</body>
+</html>
