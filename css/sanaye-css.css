@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*div{
+	outline:1px solid #FFF;	
+}*/
+
+body{
+	background:url(../images/background.jpg) top center;
+}
+
+/*---------------------header--------------------*/
+
+div.header{
+	 width:1327px;
+	 height:140px;
+	 background:url(../images/top-strip.png) no-repeat top center;
+	 margin:0 auto;
+	 top:0;
+}
+
+/*----------------header menu-----------------*/
+
+div.header div.menu{
+	width:581px;
+    height:35px;
+	float:right;
+	margin-top:92px;
+	margin-right:167px;
+}
+
+div.header div.menu > ul{
+	list-style:none;
+    width:auto;
+    margin:0 auto;
+}
+
+div.header div.menu ul li{
+	float:right;
+    height:56px;
+    text-indent:10px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+div.header div.menu ul li a{
+	display:block;
+    padding:2px 15px;
+    text-decoration:none;
+    color:#FFF;
+    font-family:Tahoma, Geneva, sans-serif;
+    overflow:hidden;
+    font-size:13px;
+	font-weight:bold;
+    height:52px;
+}
+
+#news{
+    width:56px; 
+    }
+#gallery{
+    width:83px; 
+    }
+#sefaresh{
+    width:100px;    
+    }
+#about{
+    width:61px;    
+    }
+
+
+div.header div.menu ul li a:hover{
+	color:#72b639;
+}
+
+/*--------------------container--------------------*/
+
+div.container{
+	width:900px;
+	height:600px;
+	margin:0 auto;	
+}
+
+/*--------------------footer--------------------*/
+
+div.footer{
+	width:1327px;
+	min-height:93px;
+	background:url(../images/footer.png) no-repeat bottom center;
+	margin:0 auto;
+}
