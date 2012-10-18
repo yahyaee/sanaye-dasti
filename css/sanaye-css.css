@@ -168,6 +168,7 @@ div.industry{
 }
 
 div.line{
+	margin-top:25px;
 	width:900px;
 	height:10px;
 	background:url(../images/line2.jpg) repeat-x;
